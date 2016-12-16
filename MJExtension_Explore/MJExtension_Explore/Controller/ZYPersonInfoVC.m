@@ -21,13 +21,13 @@
     [super viewDidLoad];
 //    [self obtainPersonInfo];
     
-    [self obtainPersonInfo_UnsamePropertyName];
-    
-    [self jsonString2Model];
+//    [self obtainPersonInfo_UnsamePropertyName];
+//    
+//    [self jsonString2Model];
     
     [self modelWithModel];
     
-    [self dataList];
+//    [self dataList];
 }
 
 #pragma mark The most simple JSON -> Model【最简单的字典转模型】
@@ -136,6 +136,7 @@
                            };
     
     Status *status = [Status mj_objectWithKeyValues:dict];
+    
     NSLog(@"status.text=%@\n status.user.name=%@\n status.user.icon=%@\n status.retweetedStatus.text=%@\n status.retweetedStatus.user.name=%@\n status.retweetedStatus.user.icon=%@",status.text,status.user.name,status.user.icon,status.retweetedStatus.text,status.retweetedStatus.user.name,status.retweetedStatus.user.icon);
     
     

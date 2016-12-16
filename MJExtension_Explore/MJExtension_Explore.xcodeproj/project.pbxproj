@@ -17,6 +17,7 @@
 		270A01431E03C308002965A5 /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = 270A01421E03C308002965A5 /* PodFile */; };
 		270A01491E03C5C6002965A5 /* ZYPersonInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 270A01481E03C5C6002965A5 /* ZYPersonInfo.m */; };
 		270A014C1E03C6C9002965A5 /* ZYPersonInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 270A014B1E03C6C9002965A5 /* ZYPersonInfoVC.m */; };
+		270A014F1E03F6A1002965A5 /* ZYPersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 270A014E1E03F6A1002965A5 /* ZYPersonView.m */; };
 		9D74BDA805E80017426140E9 /* libPods-MJExtension_Explore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D841257B834CF004F2FB1362 /* libPods-MJExtension_Explore.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,8 @@
 		270A01481E03C5C6002965A5 /* ZYPersonInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPersonInfo.m; sourceTree = "<group>"; };
 		270A014A1E03C6C9002965A5 /* ZYPersonInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPersonInfoVC.h; sourceTree = "<group>"; };
 		270A014B1E03C6C9002965A5 /* ZYPersonInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPersonInfoVC.m; sourceTree = "<group>"; };
+		270A014D1E03F6A1002965A5 /* ZYPersonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPersonView.h; sourceTree = "<group>"; };
+		270A014E1E03F6A1002965A5 /* ZYPersonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPersonView.m; sourceTree = "<group>"; };
 		4B520072452DCA85B25A2304 /* Pods-MJExtension_Explore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJExtension_Explore.release.xcconfig"; path = "Pods/Target Support Files/Pods-MJExtension_Explore/Pods-MJExtension_Explore.release.xcconfig"; sourceTree = "<group>"; };
 		518508639DA1C8B30DAA2D6B /* Pods-MJExtension_Explore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJExtension_Explore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MJExtension_Explore/Pods-MJExtension_Explore.debug.xcconfig"; sourceTree = "<group>"; };
 		D841257B834CF004F2FB1362 /* libPods-MJExtension_Explore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MJExtension_Explore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,6 +178,8 @@
 		270A01461E03C574002965A5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				270A014D1E03F6A1002965A5 /* ZYPersonView.h */,
+				270A014E1E03F6A1002965A5 /* ZYPersonView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -387,6 +392,7 @@
 			files = (
 				270A014C1E03C6C9002965A5 /* ZYPersonInfoVC.m in Sources */,
 				270A01141E03C249002965A5 /* AppDelegate.m in Sources */,
+				270A014F1E03F6A1002965A5 /* ZYPersonView.m in Sources */,
 				270A01111E03C249002965A5 /* main.m in Sources */,
 				270A01491E03C5C6002965A5 /* ZYPersonInfo.m in Sources */,
 			);
