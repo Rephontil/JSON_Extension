@@ -33,3 +33,18 @@
 }
 
 @end
+
+
+
+@implementation User
+
+
+
+@end
+
+
+@implementation Status
+
+
+
+@end

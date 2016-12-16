@@ -27,6 +27,8 @@ typedef enum {
 
 @end
 
+
+
 @interface ZYPersonInfo_UnsamePropertyName : NSObject
 
 @property (copy, nonatomic) NSString *ID;
@@ -40,4 +42,23 @@ typedef enum {
 @property (strong, nonatomic) NSString *Extra;
 
 @end
+
+
+
+@interface User : NSObject
+
+@property (copy, nonatomic) NSString *name;
+@property (copy, nonatomic) NSString *icon;
+@property (assign, nonatomic) unsigned int age;
+
+@end
+
+
+@interface Status : NSObject
+@property (copy, nonatomic) NSString *text;
+@property (strong, nonatomic) User *user;
+@property (strong, nonatomic) Status *retweetedStatus;
+@end
+
+
 
