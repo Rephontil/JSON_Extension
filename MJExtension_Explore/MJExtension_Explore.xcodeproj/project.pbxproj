@@ -546,6 +546,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XXRZJ9B3W5;
 				INFOPLIST_FILE = MJExtension_Explore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kidstone.MJExtension-Explore";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -559,6 +560,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XXRZJ9B3W5;
 				INFOPLIST_FILE = MJExtension_Explore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kidstone.MJExtension-Explore";
 				PRODUCT_NAME = "$(TARGET_NAME)";

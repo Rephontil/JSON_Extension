@@ -13,7 +13,7 @@
 #pragma mark
 //- (void)setValue:(id)value forUndefinedKey:(NSString *)key
 //{
-//    
+//
 //}
 
 @end
@@ -43,7 +43,50 @@
 @end
 
 
+
+
 @implementation Status
+
+
+
+@end
+
+
+
+
+@implementation ZYAd
+
+
+
+@end
+
+@implementation ZYStatusResult
+#pragma mark  在数据解析的地方也可以使用另一个方法（ + mj_setupObjectClassInArray）达到相同的效果
+//+ (NSDictionary *)mj_objectClassInArray
+//{
+//    return @{
+//             @"statuses":@"Status",
+//             @"ads":@"ZYAd"
+//
+//             };
+//
+//}
+
+@end
+
+
+
+
+@implementation ZYBag
+
+
+
+@end
+
+
+
+
+@implementation ZYStudent
 
 
 

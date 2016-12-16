@@ -62,3 +62,41 @@ typedef enum {
 
 
 
+
+@interface ZYAd : NSObject
+@property (copy, nonatomic) NSString *image;
+@property (copy, nonatomic) NSString *url;
+@end
+
+
+
+@interface ZYStatusResult : NSObject
+/** Contatins status model */
+@property (strong, nonatomic) NSMutableArray *statuses;
+/** Contatins ad model */
+@property (strong, nonatomic) NSArray *ads;
+@property (strong, nonatomic) NSNumber *totalNumber;
+@end
+
+
+
+@interface ZYBag : NSObject
+@property (copy, nonatomic) NSString *name;
+@property (assign, nonatomic) double price;
+@end
+
+
+
+@interface ZYStudent : NSObject
+@property (copy, nonatomic) NSString *ID;
+@property (copy, nonatomic) NSString *desc;
+@property (copy, nonatomic) NSString *nowName;
+@property (copy, nonatomic) NSString *oldName;
+@property (copy, nonatomic) NSString *nameChangedTime;
+@property (strong, nonatomic) ZYBag *bag;
+@end
+
+
+
+
+
