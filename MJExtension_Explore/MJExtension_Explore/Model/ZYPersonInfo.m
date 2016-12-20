@@ -79,6 +79,9 @@
 
 @implementation ZYBag
 
+//这个是进行归档所必须的
+MJExtensionCodingImplementation
+
 
 
 @end

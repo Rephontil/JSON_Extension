@@ -29,7 +29,10 @@
     //    [self modelContainsModelArray];
 
     //    [self jsonArray2ModelArray];
-    [self modelWithUnSamePropertyNameOrMutiply];
+    
+    //[self modelWithUnSamePropertyNameOrMutiply];
+    
+    [self codingArchive];
 
     //    [self dataList];
 }
@@ -273,7 +276,23 @@
 
 }
 
-
+- (void)codingArchive
+{
+    [ZYBag mj_setupAllowedCodingPropertyNames:^NSArray *{
+        return @[@""];
+    }];
+    ZYBag *bag = [[ZYBag alloc] init];
+    bag.name = @"Nick";
+    bag.price = 169.99;
+    NSString *docPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
+    NSString *filePath = [docPath stringByAppendingPathComponent:@"codingArchive.data"];
+    [NSKeyedArchiver archiveRootObject:bag toFile:filePath];
+    
+    ZYBag *bagInfo = [NSKeyedUnarchiver unarchiveObjectWithFile:filePath];
+    NSLog(@"bag.name = %@,bag.price = %f",bagInfo.name,bagInfo.price);
+    
+    
+}
 
 
 - (void)dataList
